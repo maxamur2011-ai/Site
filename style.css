@@ -1,0 +1,52 @@
+.white__block{
+    background-color:azure;
+    height: 16%;
+    display: flex;             /* Включает режим Flexbox */
+    justify-content: center;   /* Выравнивает текст по горизонтали */
+    align-items: center;       /* Выравнивает текст по вертикали */
+    text-align: left;
+    padding-left: 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    color: #1B1A1A;
+    
+}
+
+.other__block{
+    background-color: #ECE7E4;
+    height: 16%;
+    display: flex;             /* Включает режим Flexbox */
+    justify-content: center;   /* Выравнивает текст по горизонтали */
+    align-items: center;       /* Выравнивает текст по вертикали */
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A;
+}
+
+.img--right img { 
+    width: auto; 
+    height: 100%; 
+    margin-left: auto; }
+
+.img--right{
+    padding-left: 6%;
+}
+
+.img--center img {
+    width: auto; height: 70%;  margin-bottom: 15px;
+}
+
+.img--center {
+     flex-direction: column; 
+}
+body{
+    height: 100%;
+    display: flex;
+}
